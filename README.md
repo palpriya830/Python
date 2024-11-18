@@ -40,4 +40,9 @@ Pending Topics (Start learning once function by youtube video is done)
      ******Flush parameter in Python with print() function*****
      Python “sep” parameter in print()
 File Argument in Python print()
-  Arathmatic operation 
+******Arathmatic operation ******
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b) to perform division
+print(a%b) to find the remainder
