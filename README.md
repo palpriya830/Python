@@ -46,3 +46,4 @@ print(a-b)
 print(a*b)
 print(a/b) to perform division
 print(a%b) to find the remainder
+Print (a//b) to convert float to integer 
