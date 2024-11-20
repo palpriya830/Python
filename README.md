@@ -47,3 +47,16 @@ print(a*b)
 print(a/b) to perform division
 print(a%b) to find the remainder
 Print (a//b) to convert float to integer 
+
+******function ******
+Function defination :#parameters are placeholders that represent the values that will be passed to the function when it is called.
+Function call :#These arguments are the actual values or expressions that are passed to the function, which will be assigned to the function's parameters when the function executes
+#This flexibility allows functions to work with different inputs while maintaining a clear structure.
+
+for i in range(5) This will give only 4 number as output. 
+Because last number wont be considered to get counter. 
+
+
+ ******Module****
+ A module is a file containing Python definitions and statements. A module can define functions, classes, and variables, and it can also include runnable code. 
+  Modules allow you to organize and reuse code in multiple programs.
