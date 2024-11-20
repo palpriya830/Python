@@ -1,8 +1,8 @@
 # Python-Practise
 This is my first repository in which i am practising python programming and going to make a project.
 This is my first commit.
-                            Python Programming
-                                  Day 1
+ #                              Python Programming
+ #                                    Day 1
 The current version of Python is 3.13.0,released on October 7, 2024.
 fun (). 
 a=10;
@@ -12,21 +12,21 @@ c='4545'
 contact='+91 8268459680'
 print(type(a), type(Name),type(b),type(c))
 
-    ****Without end keyword print change to new line ******
+ #      ****Without end keyword print change to new line ******
 print ("GeeksForGeeks is the best platform for DSA content")
               **** with end keyword ******
 # This print() function ends with "**" as set in the end argument.
 print ("GeeksForGeeks is the best platform for DSA content", end= "**")
 print("Welcome to GFG")
 
-           ****String Concadination********
+#            ****String Concadination********
 print("Concatenated Strings")
 print('this is' + ' pal')
 Name = "priya "
 Last_name = "pal"
 print(Name + Last_name)
 
-            *****Output formatting ******
+ #              *****Output formatting ******
             print("output formatting")
 a,b=10,23
 print("The value of a is {} and b is {}".format(a,b) )
@@ -82,6 +82,6 @@ we can store values in list type in dictionary to store  it in structute.
  Diffirence between Error and Exception
 If error occures, then program wont execute further.
 Occures when some internal events occures  which changes the normal flow of the program, In this case
-we can give try and except massage 
+we can give massage by uring  try and except 
 
 
