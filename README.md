@@ -84,4 +84,11 @@ If error occures, then program wont execute further.
 Occures when some internal events occures  which changes the normal flow of the program, In this case
 we can give massage by uring  try and except 
 
-
+#         ********Function********
+#         ********  ********
+#         ********  ********
+#         ********  ********
+#         ********  ********
+#         ********  ********
+#         ********  ********
+#         ********  ********
