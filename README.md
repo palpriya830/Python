@@ -76,7 +76,8 @@ open(),read(),
  #           *******Dictionary********
 Stores data as key - value pair 
 Help us to keep data in organize structure 
-we can store values in list type in dictionary to store  it in structute.
+we can store values in list type in dictionary to store  it in structute.one key can have multiple values in dectionary.
+To access one value from dictionary in which one key have multiple values symtax is dictionary_name[element][index_of_value] .
 
  #         ********Diffirence between Error and Exception********
  Diffirence between Error and Exception
