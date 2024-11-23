@@ -65,7 +65,7 @@ Because last number wont be considered to get counter.
   And i can import import function after importing file by using syntax :
   filename.fun(arguments)
              ******OR*******
-by using this syntax:from fileneme import function name
+by using this syntax: from fileneme import function name
 
 #             *******File handling modes *******
 we can open diffirent files by using these functions.
