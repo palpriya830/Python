@@ -75,7 +75,7 @@ open(),read(),
 
  #           *******Dictionary********
 Stores data as key - value pair 
-Help us to keep data in organize structure
+Help us to keep data in organize structure 
 we can store values in list type in dictionary to store  it in structute.
 
  #         ********Diffirence between Error and Exception********
