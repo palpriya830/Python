@@ -1,1 +1,69 @@
+ '''This is a KBC Game. which will show the Question and their correct answer. finally it will show the prize money.'''
+# print(__doc__)
 
+# Input Questions
+kbc_questions_list = [
+    ["Which of these fighter aircraft is not a part of the Indian Air Force?",
+     "F-16", "MiG-21", "MiG-29", "Sukhoi Su-30", 1],
+
+    ["In the play Kalidasa, King Agnimitra falls in love with which beautiful maiden?",
+     "Menaka", "Malavika", "Meenakshi", "Malati", 2],
+
+    ["What was the name of the last king of Burma, who spent his last days in Maharashtra?",
+     "Mindon", "Thibaw", "Thalun", "Narathu", 2],
+
+    ["Mohammed bin Salman, who visited India in February 2019, is the crown prince of which country?",
+     "Jordan", "Qatar", "Saudi Arabia", "Malaysia", 3],
+
+    ["Which engineering company is named after two Danish entrepreneurs who came to Bombay in 1938 to see dairy equipment?",
+     "Barmer Lawrie", "Larsen & Toubro", "Procter & Gamble", "Jessop & Company", "Larsen & Toubro",'Larsen & Toubro'],
+
+    ["Which of these sports fields of play is not rectangular?",
+     "Golf", "Badminton", "Basketball", "Tennis", 1],
+
+    ["Which of these fruits grows on vines?",
+     "Lemon", "Pomegranate", "Pear", "Watermelon", 4],
+
+    ["Admiral Sushil Kumar wrote 'A Prime Minister to Remember' about which PM?",
+     "Atal Bihari Vajpayee", "P V Narasimha Rao", "Inder Kumar Gujaral", "H D Deve Gowda", 1],
+
+    ["What does ‘I’ stand for in the RTI Act of 2005?",
+     "India", "Information", "Institute", "Indication", 2],
+
+    ["Where in Haryana would you find an Indian Institute Of Management?",
+     "Panipat", "Gurugram", "Rohtak", "Jhajjar", 3],
+
+    ["Which former Indian cricket captain shared his first name with Buddha's son?",
+     "Ganguly", "Tendulkar", "Kumble", "Dravid", 1],
+
+    ["21 May is Anti-Terrorism Day due to the assassination of which leader?",
+     "Beant Singh", "Indira Gandhi", "Vidya Charan Shukla", "Rajiv Gandhi", 4],
+
+    ["Which place hosted India’s first Paragliding World Cup in 2015?",
+     "Bir Billing", "Manali", "Nainital", "Kamshet", 1],
+
+    ["Who invented the electric telegraph in the 1830s?",
+     "Alexander Bell", "Karl Jansky", "Samuel Morse", "Thomas Edison", 3],
+
+    ["Which of these is a traditional folk dance from Gujarat?",
+     "Bihu", "Garba", "Lavani", "Kathakali", 2]
+]
+
+# To calculate the prize money
+levels = [1000,2000,3000,4000,10000,20000,30000,40000,50000,60000,700000,600000,3000000,50000000,200000000]
+Money =0
+for level in range(0, len(kbc_questions_list)):
+    ques =  kbc_questions_list[level]
+    print(ques[0], "\n", 'A. ', ques[1], '  ', 'B. ', ques[2], '  ', '\n', 'C. ', ques[3], '  ', 'D. ', ques[4])
+    Answer = int(input("Choose the correct answer :"))
+    if(Answer==ques[-1]):
+        print(f"Correct answer, You have won Rs. {levels[level]}")
+        if(level ==4):
+            Money = 10,000
+        elif (level ==9):
+                Money = 50000
+        elif(level== 14):
+            Money=50000000
+    else:
+        print("Wrong Answer")
+        break
